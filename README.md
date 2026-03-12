@@ -1,4 +1,4 @@
-<h1 align="center">atlas.nvim</h1>
+<h1 align="center">Atlas</h1>
 
 <p align="center">
 A minimalist colorscheme for <a href="https://github.com/neovim/neovim">Neovim</a> written in Lua.
@@ -24,9 +24,10 @@ A minimalist colorscheme for <a href="https://github.com/neovim/neovim">Neovim</
 - Inspired by the original [atlas.vim](https://github.com/huyvohcmc/atlas.vim) colorscheme
 
 
-# 📦 Installation
+# Usage
+## 📦 Installation
 
-Install using **lazy.nvim**
+Install using `lazy.nvim`
 
 ```lua
 return {
@@ -59,7 +60,10 @@ require("atlas").setup({
     italic = false,
   },
 })
+
+vim.cmd([[colorscheme atlas]])
 ```
+Don't forget to call `setup()` if you want your custom colors to be loaded
 
 See `:help atlas.txt` for more information
 
