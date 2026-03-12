@@ -11,12 +11,11 @@ A minimalist colorscheme for <a href="https://github.com/neovim/neovim">Neovim</
 <p align="center">
   <img src="https://img.shields.io/badge/Neovim-0.8+-57A143?style=for-the-badge&logo=neovim" />
   <img src="https://img.shields.io/badge/Made%20with-Lua-blue?style=for-the-badge&logo=lua" />
-  <img src="https://img.shields.io/github/stars/aniketmondal092009/atlastheme?style=for-the-badge" />
   <img src="https://img.shields.io/github/license/aniketmondal092009/atlastheme?style=for-the-badge" />
 </p>
 
 
-## ✨ Features
+**✨ Features**
 
 - Minimal and clean color palette
 - Monochrome
@@ -25,7 +24,7 @@ A minimalist colorscheme for <a href="https://github.com/neovim/neovim">Neovim</
 - Inspired by the original [atlas.vim](https://github.com/huyvohcmc/atlas.vim) colorscheme
 
 
-## 📦 Installation
+# 📦 Installation
 
 Install using **lazy.nvim**
 
@@ -62,12 +61,12 @@ require("atlas").setup({
 })
 ```
 
+See `:help atlas.txt` for more information
+
 ## Inspiration
 
 This colorscheme is inspired by the original [atlas.vim](https://github.com/huyvohcmc/atlas.vim) 
-and ThePrimeagen's rose-pine theme.
-
-It has been rewritten in **Lua** to better integrate with modern **Neovim** 
+and ThePrimeagen's [rose-pine](https://github.com/rose-pine/neovim) theme. It has been rewritten in **Lua** to better integrate with modern **Neovim** 
 configurations and plugin ecosystems.
 
 
