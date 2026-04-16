@@ -20,10 +20,6 @@ Install using `lazy.nvim`
 ```lua
 return {
   "blameaniket/atlastheme",
-  name = "atlastheme",
-
-  -- load the colorscheme before 
-  -- any other plugins, to have minimum issues
   lazy = false,
   priority = 1000,
 
@@ -34,13 +30,11 @@ return {
       -- custom options
     })
 
-    -- apply the colorscheme
     vim.cmd([[colorscheme atlas]])
   end
 }
 ```
 
-<!-- ## ⚙️ Configuration -->
 ## Configuration
 
 Default configuration:
@@ -48,11 +42,13 @@ Default configuration:
 ```lua
 require("atlas").setup({
   variant = "main",
-  -- the suitable options are
+  -- DEFAULT: "main"
+  -- suitable options are
   -- "main"
   -- "minimal"
 
-  disable_background = true,
+  disable_background = false,
+  -- DEFAULT: false
   -- suitable options are
   -- true: you can get some unique effects
   -- false: as given in the screenshot
@@ -64,10 +60,6 @@ require("atlas").setup({
 
 vim.cmd([[colorscheme atlas]])
 ```
-Don't forget to call `setup()` if you want your custom colors to be loaded
-
-See `:help atlas.txt` for more information
-
 
 ## Contributing
 
