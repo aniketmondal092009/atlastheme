@@ -220,8 +220,8 @@ local function set_highlights()
             blend = 60,
         },
         Substitute = { link = "IncSearch" },
-        TabLine = { fg = palette.subtle, bg = groups.panel },
-        TabLineFill = { bg = groups.panel },
+        TabLine = { fg = palette.subtle, bg = groups.none },
+        TabLineFill = { bg = palette.none },
         TabLineSel = {
             fg = palette.text,
             bg = palette.overlay,
